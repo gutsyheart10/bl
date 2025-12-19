@@ -1,0 +1,80 @@
+@import '../../App.scss';
+
+@media(max-width:790px) {
+    .fourth{
+        height: 346px;
+        text-align: center;
+        h3{
+            font-size: 30px;
+            line-height: 34.5px;
+        }
+    }
+}
+@media(max-width:1245px) and (min-width:790px){
+    .fourth{
+        height: 375px;
+        h3{
+            font-size: 36px;
+            line-height: 41.4px;
+        }
+    }
+}
+@media(max-width:1280px) and (min-width:1245px){
+    .fourth{
+        height: 375px;
+        h3{
+            font-size: 36px;
+            line-height: 41.4px;
+        }
+    }
+}
+@media(min-width:1280px){
+    .fourth{
+        height: 375px;
+        h3{
+            font-size: 36px;
+            line-height: 41.4px;
+        }
+    }
+}
+.fourth{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../../img/fourth.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+    background-position: 0 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3{
+        font-family: $fonts;
+        color: $white-color;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    p{
+        font-family: $fonts;
+        color: $white-color;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+    button{
+        width: 184px;
+        height: 56px;
+        background-color: $yellow;
+        border: none;
+        border-radius: 12px;
+        font-family: $fonts;
+        color: $h-color;
+        font-size: 14px;
+        line-height: 16.1px;
+        text-align: center;
+    }
+    button:hover{
+        background-color: $h-color;
+        color: $yellow;
+    }
+}

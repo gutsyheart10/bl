@@ -1,0 +1,535 @@
+@import "../../App.scss";
+
+@media(max-width:790px){
+    .eigth{
+        width: 100%;
+        height: 1600px;
+        background: linear-gradient( to bottom, #F4F6F9 725px, #32333F 562px);
+        .content{
+            padding: 60px 0;
+            width: 100%;
+            height: 1600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .left{
+                .top{
+                    .h{
+                        font-size: 32px;
+                        line-height: 36.8px;
+                        margin-bottom: 20px;
+                    }
+                    .p{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+    
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 24px;
+                    margin-top: 32px;
+                    .Input{
+                        .input,.textarea{
+                            width: 100%;
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .input{
+                            height: 49px;
+                            padding: 10px;
+                        }
+                        .input::placeholder,.textarea::placeholder,span{
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .textarea{
+                            height: 121px !important;
+                            padding: 10px 10px;
+                        }
+                        .textarea::placeholder{
+                            padding: 61px 0 16px ;
+                        }
+                    }
+                    
+                }
+                
+            }
+            .right{
+                
+                .map{
+                    width: 353px;
+                    height: 353px;
+                    margin-bottom: 47px;
+                }
+                .info{
+                    width: 353px;
+                    height: 202px;
+                    padding: 25px 34px;
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 14px;
+                    .element{
+                        display: flex;
+    
+                        
+                        .infoText{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 13px;
+                            grid-gap: 5px;
+    
+                            .name,.text{
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+                .media{
+                    margin-top: 20px;
+                    .mediaP{
+                        font-size: 18px;
+                        line-height: 20.7px;
+                    }
+                    .icons{
+                        margin-top: 20px;
+                        display: flex;
+                        grid-gap: 20px;                        
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media(max-width:1245px) and (min-width:790px){
+    .eigth{
+        width: 100%;
+        height: 1401px;
+        background: linear-gradient( to bottom, #F4F6F9 900px, #32333F 562px);
+        .content{
+            height: 1400px;
+            padding: 100px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .left{
+                .top{
+                    .h{
+                        font-size: 36px;
+                        line-height: 41.4px;
+                        margin-bottom: 20px;
+                    }
+                    .p{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+    
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 24px;
+                    margin-top: 60px;
+                    .Input{
+                        .input,.textarea{
+                            width: 100%;
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .input{
+                            height: 49px;
+                            padding: 10px;
+                        }
+                        .input::placeholder,.textarea::placeholder,span{
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .textarea{
+                            height: 159px !important;
+                            padding: 10px 10px;
+                        }
+                        .textarea::placeholder{
+                            padding: 99px 0 16px ;
+                        }
+                    }
+                    
+                }
+                
+            }
+            .right{
+                display: flex;
+                justify-content: space-between;
+                .map{
+                    width: 362px;
+                    height: 362px;
+                }
+                .info{
+                    width: 362px;
+                    height: 202px;
+                    padding: 25px 34px;
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 14px;
+                    .element{
+                        display: flex;
+    
+                        
+                        .infoText{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 13px;
+                            grid-gap: 5px;
+    
+                            .name,.text{
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+                .media{
+                    margin-top: 69px;
+    
+                    .mediaP{
+                        font-size: 18px;
+                        line-height: 20.7px;
+                    }
+                    .icons{
+                        margin-top: 20px;
+                        display: flex;
+                        grid-gap: 20px;
+    
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media(max-width:1280px) and (min-width:1245px){
+    .eigth{
+        width: 100%;
+        height: 1024px;
+        display: flex;
+        background: linear-gradient( to right, #F4F6F9 50%, #32333F 50%);
+        .content{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 131px;
+            height: 100%;
+    
+            .left{
+                .top{
+                    .h{
+                        font-size: 36px;
+                        line-height: 41.4px;
+                        margin-bottom: 20px;
+                    }
+                    .p{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+    
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 24px;
+                    margin-top: 60px;
+                    .Input{
+                        .input,.textarea{
+                            width: 453px;
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .input{
+                            height: 49px;
+                            padding: 10px;
+                        }
+                        .input::placeholder,.textarea::placeholder,span{
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .textarea{
+                            height: 236px !important;
+                            padding: 10px 10px;
+                        }
+                        .textarea::placeholder{
+                            padding: 176px 0 16px ;
+                        }
+                    }
+                    
+                }
+                
+            }
+            .right{
+                .map{
+                    width: 420px;
+                    height: 420px;
+                    margin-bottom: 32px;
+                }
+                .info{
+                    width: 420px;
+                    height: 192px;
+                    padding: 25px 34px;
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 14px;
+                    .element{
+                        display: flex;
+                        height: 38px;
+    
+                        
+                        .infoText{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 13px;
+                            grid-gap: 3px;
+    
+                            .name,.text{
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+                .media{
+                    margin-top: 25px;
+    
+                    .mediaP{
+                        font-size: 18px;
+                        line-height: 20.7px;
+                    }
+                    .icons{
+                        margin-top: 20px;
+                        display: flex;
+                        grid-gap: 20px;
+    
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media(min-width:1280px){
+    .eigth{
+        width: 100%;
+        height: 1024px;
+        display: flex;
+        background: linear-gradient( to right, #F4F6F9 50%, #32333F 50%);
+        .content{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 131px;
+            height: 100%;
+    
+            .left{
+                .top{
+                    .h{
+                        font-size: 36px;
+                        line-height: 41.4px;
+                        margin-bottom: 20px;
+                    }
+                    .p{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+    
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 24px;
+                    margin-top: 60px;
+                    .Input{
+                        .input,.textarea{
+                            width: 453px;
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .input{
+                            height: 49px;
+                            padding: 10px;
+                        }
+                        .input::placeholder,.textarea::placeholder,span{
+                            font-size: 20px;
+                            line-height: 23px;
+                        }
+                        .textarea{
+                            height: 236px !important;
+                            padding: 10px 10px;
+                        }
+                        .textarea::placeholder{
+                            padding: 176px 0 16px ;
+                        }
+                    
+                    }
+                    
+                }
+                
+            }
+            .right{
+                .map{
+                    width: 420px;
+                    height: 420px;
+                    margin-bottom: 32px;
+                }
+                .info{
+                    width: 420px;
+                    height: 192px;
+                    padding: 25px 34px;
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 14px;
+                    .element{
+                        display: flex;
+                        height: 38px;
+    
+                        
+                        .infoText{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 13px;
+                            grid-gap: 3px;
+    
+                            .name,.text{
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+                .media{
+                    margin-top: 25px;
+    
+                    .mediaP{
+                        font-size: 18px;
+                        line-height: 20.7px;
+                    }
+                    .icons{
+                        margin-top: 20px;
+                        display: flex;
+                        grid-gap: 20px;
+    
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+.eigth{
+    
+    .content{
+        .left{
+            .top{
+                .h{
+                    font-family: $fonts;
+                    color: $h-color;
+                    font-weight: 700;
+                }
+                .p{
+                    font-family: $fonts;
+                    color: $h-color;
+                    font-weight: 400;
+                }
+            }
+
+            .form{
+                .Input{
+                    display: flex;
+                    flex-direction: column;
+                    .input,.textarea{
+                        border: none;
+                        background: none;
+                        border-bottom: 1px solid rgba(50, 51, 63, 1);
+                        font-family: $fonts;
+                        font-weight: 400;
+                    }
+                    .input::placeholder,.textarea::placeholder{
+                        font-family: $fonts;
+                        font-weight: 400;
+                        color: rgba(50, 51, 63, 0.3);
+                    }
+                    span{
+                        font-family: $fonts;
+                        font-weight: 400;
+                        color: red;
+                    }
+                }
+                button{
+                    width: 184px;
+                    height: 56px;
+                    background-color: $h-color;
+                    font-family: $fonts;
+                    color: #F4F6F9;
+                    font-size: 14px;
+                    border: none;
+                    border-radius: 12px;
+                    text-align: center;
+                    margin-top: 8px;
+                }
+                button:hover{
+                    background-color: #F4F6F9;
+                    border: 2px solid $h-color;
+                    color: $h-color;
+                }
+            }
+            
+        }
+        .right{
+            .map{
+                border-radius: 24px;
+            }
+            .info{
+                background-color: #ffffff;
+                border-radius: 24px;
+                .element{
+                    .img{
+                        border-radius: 100px;
+                        background-color: #ffffff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 38px;
+                        height: 38px;
+                    }
+                    .infoText{
+                        .name{
+                            font-family: $fonts;
+                            color: $h-color;
+                            font-weight: 700;
+                        }
+                        .text{
+                            font-family: $fonts;
+                            color: $h-color;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .media{
+                .mediaP{
+                    font-family: $fonts;
+                    font-weight: 700;
+                    color: rgba(255, 255, 255, 1);
+                }
+                .icons{
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

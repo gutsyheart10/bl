@@ -1,0 +1,80 @@
+@import "../../App.scss";
+
+
+@media(max-width:790px){
+    .sixth{
+        height: 705px;
+        padding: 60px 0;
+        width: 400px;
+        overflow:hidden;
+        p{
+            font-size: 32px;
+            line-height: 41.6px;
+        }
+        img{
+            width: 851px;
+            height: 560px;         
+            position: relative;
+            left: -400px;   
+        }
+    }
+}
+@media(max-width:1245px) and (min-width:790px){
+    .sixth{
+        height: 1140px;
+        padding: 100px 0;
+        width: 835px;
+        overflow: hidden;
+        p{
+            font-size: 40px;
+            line-height: 52px;
+        }
+        img{
+            width:1226px;
+            height: 808px;
+            margin-top: 80px;
+            position: relative;
+            left: -450px; 
+        }
+    }
+}
+@media(max-width:1280px) and (min-width:1245px){
+    .sixth{
+        height: 1140px;
+        padding: 100px 0;
+        p{
+            font-size: 40px;
+            line-height: 52px;
+        }
+        img{
+            width: 1226px;
+            height: 808px;
+            margin-top: 80px;
+        }
+    }
+}
+@media(min-width:1280px){
+    .sixth{
+        height: 1140px;
+        padding: 100px 0;
+        p{
+            font-size: 40px;
+            line-height: 52px;
+        }
+        img{
+            width: 1226px;
+            height: 808px;
+            margin-top: 80px;
+        }
+    }
+}
+.sixth{
+    width: 100%;
+    background-color: rgba(244, 246, 249, 1);
+    p{
+        font-family: $fonts;
+        font-weight: 700;
+        text-align: center;
+        color: rgba(50, 51, 63, 1);
+    }
+}

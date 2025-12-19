@@ -1,0 +1,166 @@
+@import '../../App.scss';
+
+
+@media(max-width:790px) {
+    .fifth{
+        padding: 60px 0;
+        .h3{
+            font-size: 32px;
+            line-height: 41.6px;
+        }
+        .elements{
+            grid-gap: 63px;
+            grid-row-gap: 63px;
+            margin-top: 40px;
+            .element{
+                width: 330px;
+                .top{
+                    display: flex;
+                    align-items: center;
+                    grid-gap: 15px;
+                    margin-bottom: 20px;
+                    .foto{
+                        width: 48px;
+                        height: 48px;
+                        
+                        img{
+                            width: 25.6px;
+                            height: 25.6px;
+                        }
+                    }
+                    h3{
+                        font-size: 20px;
+                        line-height: 23px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+@media(min-width:790px) and (max-width:1245px){
+    .fifth{
+        padding: 100px 0;
+        .h3{
+            font-size: 40px;
+            line-height: 52px;
+        }
+        .elements{
+            grid-gap: 63px;
+            grid-row-gap: 63px;
+            margin-top: 60px;
+            .element{
+                width: 330px;
+                .foto{
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 15px;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 27.6px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1280px) and (min-width:1245px){
+    .fifth{
+        padding: 100px 0;
+        .h3{
+            font-size: 40px;
+            line-height: 52px;
+        }
+        .elements{
+            grid-gap: 120px;
+            grid-row-gap: 64px;
+            margin-top: 80px;
+            .element{
+                width: 330px;
+                .foto{
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 15px;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 27.6px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media(min-width:1280px){
+    .fifth{
+        padding: 100px 0;
+        .h3{
+            font-size: 40px;
+            line-height: 52px;
+        }
+        .elements{
+            grid-gap: 120px;
+            grid-row-gap: 64px;
+            margin-top: 80px;
+            .element{
+                width: 330px;
+                .foto{
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 15px;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                h3{
+                    font-size: 24px;
+                    line-height: 27.6px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+.fifth{
+    .h3{
+        font-family: $fonts;
+        color: $h-color;
+        font-weight: 700;
+    }
+    .elements{
+        display: flex;
+        flex-wrap: wrap;
+        .element{
+            width: 330px;
+            .foto{
+                border-radius: 100px;
+                background-color: $white-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            }
+            h3{
+                font-family: $fonts;
+                color: $h-color;
+                font-weight: 700;
+            }
+            p{
+                font-family: $fonts;
+                color: $p-color;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}
